@@ -1,0 +1,47 @@
+header{
+  background-color: lightseagreen;
+  border-radius: 10%;
+}
+  h1{
+    color: lightgrey;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px;
+  }
+  ul{
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+    }
+  li{
+    display: inline-block;
+    margin: 20px;
+    }
+  nav a{
+    color: lightgrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+  nav a:hover{
+    color: grey;
+    }
+    .point{
+      color: black;
+    }
+
+footer{
+  background-color: lightseagreen;
+  border-radius: 10%;
+  clear: both;
+}
+  p{
+  color: lightgrey;
+  padding: 40px;
+  text-align: center;
+  }
+    .email{
+      color:#708090;
+    }
+      .email:hover{
+        color:black;
+      }
