@@ -1,19 +1,25 @@
+body{
+  background: #F8F8F8;
+  margin: 0px;
+}
+
 header{
   background-color: lightseagreen;
-  border-radius: 10%;
+  border-radius: 50% 0% 50% 0%;
 }
+
   h1{
     color: lightgrey;
     text-align: center;
     text-transform: uppercase;
     padding: 40px;
+    margin: 0px;
   }
   ul{
-    list-style: none;
     text-align: center;
     padding: 30px;
     }
-  li{
+  nav li{
     display: inline-block;
     margin: 20px;
     }
@@ -28,19 +34,40 @@ header{
     .point{
       color: black;
     }
-
+main{
+  padding: 40px;
+}
+h4{
+  color: lightseagreen;
+  text-align: center;
+}
+article{
+  text-align: left;
+  color: lightseagreen;
+  padding: 20px;
+  margin: 30px;
+}
+img{
+  display: block;
+  width: 40%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
 footer{
   background-color: lightseagreen;
-  border-radius: 10%;
+  border-radius: 50% 0% 50% 0%;
   clear: both;
 }
   p{
   color: lightgrey;
   padding: 40px;
+  margin: 0px;
   text-align: center;
   }
     .email{
       color:#708090;
+      text-decoration: inherit;
     }
       .email:hover{
         color:black;

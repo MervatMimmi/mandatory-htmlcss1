@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <h1></h1>
+      <h1>Kontakt</h1>
       <nav class="navigation">
         <ul>
           <li class="index">
@@ -29,9 +29,27 @@
       </nav>
     </header>
     <main>
-
+      <form class="form" action="index.html" method="post">
+        <label for="name"></label><br>
+        <input type="text" name="Name" maxlength="50"  placeholder="Namn" required><br>
+        <label for="Email"></label><br>
+        <input type="email" name="Email" maxlength="50" placeholder="E-postadress" required><br>
+        <label for="SelectCountry"></label><br>
+        <select class="SelectContry" required><option value=""> Välj ett land </option>
+          <option value="Denmark">Denmark</option>
+          <option value="England">England</option>
+          <option value="Finland">Finland</option>
+          <option value="Germany">Germany</option>
+          <option value="Ireland">Irland</option>
+          <option value="Norway">Norway</option>
+          <option value="Scotland">Scotland</option>
+          <option value="Sweden">Sweden</option>
+        </select><br><br>
+        <label for="message"></label>
+        <textarea name="message" rows="8" cols="80" placeholder="Lämna ett meddelande"required></textarea><br>
+        <input type="submit" name="" value="Skicka"><br>
+      </form>
     </main>
-
     <footer>
       <p>Kontaktinformation:<a class="email" href="mailto:mervat.hassan@gmail.com">mervat.hassan@gmail.com</a></p>
     </footer>
